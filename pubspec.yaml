@@ -1,0 +1,54 @@
+name: real_estate_app
+description: A Flutter real estate/Airbnb app for tourists in Indonesia
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+
+  # UI & Icons
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+
+  # State Management & Navigation
+  provider: ^6.1.1
+  get: ^4.6.6
+
+  # Utilities
+  intl: ^0.20.2
+  url_launcher: ^6.2.2
+
+  # Localization & Payment
+  flutter_localizations:
+    sdk: flutter
+  midtrans_sdk: ^1.2.0
+  http: ^1.1.0
+
+
+  google_generative_ai: ^0.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/login_background.jpg
