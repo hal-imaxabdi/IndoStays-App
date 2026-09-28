@@ -142,7 +142,3 @@ lib/
 - push notifications
 - search and filtering improvements
 - user reviews and ratings
-
-## Contact
-
-For questions or collaboration opportunities, please use the GitHub Issues section in this repository.
